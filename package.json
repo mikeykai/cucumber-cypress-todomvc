@@ -1,0 +1,27 @@
+{
+  "name": "cypress-cucumber-todomvc",
+  "version": "1.0.0",
+  "description": "Project of cypress with cucumber and todomvc",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeykai/cucumber-cypress-todomvc.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "homepage": "https://github.com/mikeykai/cucumber-cypress-todomvc#readme",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
