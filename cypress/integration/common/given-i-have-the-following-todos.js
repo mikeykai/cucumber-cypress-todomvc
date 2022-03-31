@@ -9,5 +9,5 @@ Given("I have the following todos:", (dataTable) => {
       });
     });
     cy.visit("/");
-    window.localStorage.setItem("react-todos", JSON.stringify(todos));
+    window.localStorage.setItem("todos-vuejs", JSON.stringify(todos));
   });
