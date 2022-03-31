@@ -1,4 +1,5 @@
 {
+  "baseUrl": "https://todomvc.com/examples/vue/",
   "ignoreTestFiles": "*.js",
   "testFiles": "**/*.{feature,features}"
 }
